@@ -6,7 +6,7 @@ const about = () => {
   return (
     <div className='main'>
         <div>
-        {/* <Navbar/> */}
+             {/* <Navbar/> */}
         </div>
        
        <section className='main-2'>
@@ -19,7 +19,11 @@ const about = () => {
                     <span style={{color:"red"}}>—Brandon Shepherdson
 
 CEO & Founder, Falcon IT & Staffing Solutions</span>
-<br />Seeking qualified candidates can be time-consuming. We understand our clients needs which is why we ask the important questions and let our database filter out qualified candidates for your needs. Qualified candidates still require additional screening, we make sure they have the certifications and clearances needed to meet the job requirements.
+<br />
+
+Seeking qualified candidates can be time-consuming. We understand our clients needs which is why we ask the important questions and let our database filter out qualified candidates for your needs. Qualified candidates still require additional screening, we make sure they have the certifications and clearances needed to meet the job requirements.
+
+ 
 
 Since 2013 this process has been repeated thousands of times for top federal government agencies. We deliver results within 72 hours. For more information about government agencies we service, see below.
 

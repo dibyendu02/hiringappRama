@@ -43,13 +43,15 @@ img{
     cursor: pointer;
 }
 .main-2{
+    width: fit-content;
     /* margin-right: 75%; */
     color: rgb(15, 15, 68);
-    font-size: x-large;
+    font-size: 1.7rem;
+    margin-right: 75%;
 }
 .main-3{
     color: white;
-    background: url("https://media.istockphoto.com/id/1623303770/photo/creative-background-image-is-blurred-evening-city-lights-and-light-snowfall.jpg?b=1&s=612x612&w=0&k=20&c=--I6QisPR7yGmgujOI2co8U3FIK5tBv6xAjMup67ghc=");
+    background: url("https://png.pngtree.com/thumb_back/fh260/background/20200714/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -61,6 +63,7 @@ img{
     /* padding: 50px; */
 }
 .last-container{
+    flex-direction: column;
     /* position: absolute; */
     padding: 50px 100px 50px 100px;
 }
@@ -68,21 +71,22 @@ img{
     color: black;
     background-color: white;
     width: fit-content;
-    padding: 5px 200px 5px 20px;
+    padding: 0.1rem 10rem 0.1rem 2rem;
     margin-top: -50px;
     border-radius: 0px 0px 15px 15px;
 }
 .last-container-h2,.last-container-p{
     padding-right: 40%;
+    margin: 5rem 0;
 }
 .last-container-h2{
-    font-size: x-large;
+    font-size: 1.7rem;
 }
 .core-values{
     color: black;
     background-color: white;
     width: fit-content;
-    padding: 5px 200px 5px 20px;
+    padding: 0.1rem 10rem 0.1rem 2rem;
     border-radius: 15px 15px 0px 0px;
 }
 .box-container{
@@ -101,7 +105,15 @@ img{
     border-radius: 15px;
     background-color: black;
 }
-
+.box-head{
+    font-size: 1.3rem;
+}
+.bar{
+    width: 45px;
+    height: 5px;
+    background-color: blue;
+    border-radius: 5px;
+}
 p{
     text-align: start;
 }
@@ -127,5 +139,10 @@ p{
     }
     .last-container-h2{
         font-size: large;
+    }
+}
+@media only screen and (max-width: 715px) {
+    .main-2{
+        font-size: 1.2rem;
     }
 }
