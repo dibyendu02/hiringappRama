@@ -5,15 +5,13 @@ import Navbar from "../components/Navbar";
 const about = () => {
   return (
     <div className='main'>
-        <div>
-             {/* <Navbar/> */}
-        </div>
+       <Navbar/>
        
-       <section className='main-2'>
+       <section className='main-1'>
            <h1>About Us</h1>
        </section>
-        <section className='main-1'>
-            <div className='main-1-para'>
+        <section className='main-2'>
+            <div className='main-2-para'>
                 <p>"Falcon IT specializes in staffing small businesses in the federal sector. As Founder and CEO,  I started Falcon because there was a need for better pricing, customizable contracts and flexible payment terms for small federal contractors.  Most importantly, small businesses needed the same service and attention provided to the large well-known government contractors.  Falcon IT takes special pride in helping Service Disabled Veteran Owned Businesses (SDVOSB’s), Women-Owned Small Businesses (WOSB’s), Minority Owned and many more."
                     <br />
                     <span style={{color:"red"}}>—Brandon Shepherdson
@@ -21,18 +19,13 @@ const about = () => {
 CEO & Founder, Falcon IT & Staffing Solutions</span>
 <br />
 
-Seeking qualified candidates can be time-consuming. We understand our clients needs which is why we ask the important questions and let our database filter out qualified candidates for your needs. Qualified candidates still require additional screening, we make sure they have the certifications and clearances needed to meet the job requirements.
-
- 
-
-Since 2013 this process has been repeated thousands of times for top federal government agencies. We deliver results within 72 hours. For more information about government agencies we service, see below.
-
-​
-
+Seeking qualified candidates can be time-consuming. We understand our clients needs which is why we ask the important questions and let our database filter out qualified candidates for your needs. Qualified candidates still require additional screening, we make sure they have the certifications and clearances needed to meet the job requirements.Since 2013 this process has been repeated thousands of times for top federal government agencies. We deliver results within 72 hours. For more information about government agencies we service, see below
+<br />
+<br />
 NEED STAFFING ASSISTANCE?</p>
 
                 <div className='btn-container'>
-                <span>Learn More</span>
+                <span>LEARN MORE</span>
                 <span></span>
                 </div>
                 
@@ -56,11 +49,12 @@ NEED STAFFING ASSISTANCE?</p>
                 <h2>Core Values</h2>
             </div>
             <div className='box-container'>
-                <div className='box'>
-                    <div className='bar'>
-                        
-                    </div>
+            <div className='box'>
+                    
                     <div className='box-head'>
+                        <div className='bar'>
+                        
+                        </div>
                         <h3>Small Business Services</h3>
                     </div>
                     <div className='box-desc'>
@@ -70,41 +64,44 @@ NEED STAFFING ASSISTANCE?</p>
                     </div>
                 </div>
                 <div className='box'>
-                    <div className='bar'>
-                        
-                    </div>
+                    
                     <div className='box-head'>
-                        <h3>Small Business Services</h3>
+                        <div className='bar'>
+                        
+                        </div>
+                        <h3>Contingent Recruiting</h3>
                     </div>
                     <div className='box-desc'>
                         <p>
-                        Falcon offers affordable hiring solutions and customizable contracts and payment terms.
+                        These services include pricing, incumbent capture, key personnel resumes and contingent offer letters.
                         </p>
                     </div>
                 </div>
                 <div className='box'>
-                    <div className='bar'>
-                        
-                    </div>
+                    
                     <div className='box-head'>
-                        <h3>Small Business Services</h3>
+                        <div className='bar'>
+                        
+                        </div>
+                        <h3>Cleared Talent Recruiting</h3>
                     </div>
                     <div className='box-desc'>
                         <p>
-                        Falcon offers affordable hiring solutions and customizable contracts and payment terms.
+                        Top Secret, Interim Secret, Secret, Top Secret/SCI, Top Secret/SCI with CI Poly, Top Secret/SCI with Lifestyle Poly.
                         </p>
                     </div>
                 </div>
                 <div className='box'>
-                    <div className='bar'>
-                        
-                    </div>
+                    
                     <div className='box-head'>
-                        <h3>Small Business Services</h3>
+                        <div className='bar'>
+                        
+                        </div>
+                        <h3>Military Veteran Recruiting</h3>
                     </div>
                     <div className='box-desc'>
                         <p>
-                        Falcon offers affordable hiring solutions and customizable contracts and payment terms.
+                        Help military veterans assimilate into the workforce, help businesses meet their military veterans hiring goals.
                         </p>
                     </div>
                 </div>
