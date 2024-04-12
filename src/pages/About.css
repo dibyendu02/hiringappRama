@@ -56,7 +56,7 @@ img{
     /* margin-right: 75%; */
     color: rgb(15, 15, 68);
     font-size: 1.1rem;
-    /* margin-left: 5%; */
+    font-weight: 300;
 }
 .main-3{
     color: white;
@@ -173,5 +173,10 @@ p{
 @media only screen and (max-width: 715px) {
     .main-1{
         font-size: 1.2rem;
+    }
+}
+@media only screen and (max-width: 440px) {
+    .overview,.core-values{
+        padding: 1.4rem 8rem 1.4rem 2rem;
     }
 }
