@@ -17,7 +17,7 @@
 }
 .grid-item {
     background-color: rgb(12, 12, 56);
-    border: 2px solid white;
+    border: 1.5px solid white;
     padding: 20px;
     font-size: 30px;
     text-align: center;
@@ -44,7 +44,7 @@ li{
 }
 .grid-container-2{
     grid-template-columns: auto auto;
-    
+    padding-top: 0%;
 }
 .grid-container-3{
     background: url("https://png.pngtree.com/thumb_back/fh260/background/20200714/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg");
