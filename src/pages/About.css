@@ -52,10 +52,10 @@ img{
 }
 .main-1{
     width: 95%;
-    padding: 0 80px 80px 80px;
+    padding: 25px 80px 50px 80px;
     /* margin-right: 75%; */
     color: rgb(15, 15, 68);
-    font-size: 1.1rem;
+    font-size: 0.8rem;
     font-weight: 300;
 }
 .main-3{
@@ -150,6 +150,9 @@ p{
         width: 100%;
         padding: 60px 60px 50px 40px;
     }
+    .main-1{
+        padding: 45px 80px 50px 80px;
+    }
     .main-2{
         flex-direction: column-reverse;
     }
@@ -172,7 +175,7 @@ p{
 }
 @media only screen and (max-width: 715px) {
     .main-1{
-        font-size: 1.2rem;
+        font-size: 0.6rem;
     }
 }
 @media only screen and (max-width: 440px) {
