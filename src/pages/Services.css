@@ -16,7 +16,7 @@
     padding: 50px 120px 0px 120px;
 }
 .grid-item {
-    background-color: rgb(15, 15, 68);
+    background-color: rgb(12, 12, 56);
     border: 2px solid white;
     padding: 20px;
     font-size: 30px;
@@ -38,8 +38,9 @@
 }
 
 li{
-    font-size: 1.2rem;
-    list-style: circle;
+    font-size: 1.3rem;
+    list-style-type: circle;
+    font-weight: 400;
 }
 .grid-container-2{
     grid-template-columns: auto auto;
@@ -78,5 +79,7 @@ li{
         grid-template-columns: auto auto;
         padding: 50px 80px 0px 80px;
     }
-    
+    .grid-container-3-desc{
+        padding: 100px 70px;
+    }
 }
