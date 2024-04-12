@@ -37,7 +37,7 @@
     padding: 20px 20px 20px 50px;
 }
 
-li{
+.grid-item-list ul li{
     font-size: 1.3rem;
     list-style-type: circle;
     font-weight: 400;
@@ -56,10 +56,11 @@ li{
     padding: 50px;
 }
 .grid-container-3-desc{
-    padding: 150px 180px;
+    padding: 150px 200px;
 }
 .grid-container-3 h2{
-    font-size: 2.8rem;
+    font-size: 2.4rem;
+    text-align: center;
 }
 .grid-container-3-btn{
     display: flex;
@@ -69,6 +70,7 @@ li{
     padding: 20px 40px;
     border-radius: 35px;
     background-color: red;
+    cursor: pointer;
 }
 .grid-container-3 span:nth-child(1){
     background-color: blue;
